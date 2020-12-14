@@ -145,10 +145,10 @@ func main() {
 			panic(err)
 		}
 		fmt.Printf("\n")
-		fmt.Printf("IP Addr: %s\n", ip.ToString())
+		fmt.Printf("IP Addr:     %s\n", ip.ToString())
 		fmt.Printf("Net Address: %s\n", ip.GetNetworkAddress())
-		fmt.Printf("Broadcast: %s\n", ip.GetBroadcastAddress())
+		fmt.Printf("Broadcast:   %s\n", ip.GetBroadcastAddress())
 		hostmin, hostmax := ip.GetHostAddressRange()
-		fmt.Printf("Host range: %s - %s\n", hostmin, hostmax)
+		fmt.Printf("Host range:  %s - %s\n", hostmin, hostmax)
 	}
 }
